@@ -1,0 +1,157 @@
+[
+    {
+        "id": 1,
+        "rodada": 1,
+        "data": "15/01/2023",
+        "hora": "16:00",
+        "estadio": "Nabi Abi Chedid",
+        "gols_mandante": "1",
+        "partida": "RBB x COR",
+        "gols_visitante": "0",
+        "mandante": "bragantino.png",
+        "visitante": "corinthians.png"
+    },
+
+    {
+        "id": 2,
+        "rodada": 2,
+        "data": "18/01/2023",
+        "hora": "19:30",
+        "estadio": "Neo Química Arena",
+        "gols_mandante": "3",
+        "partida": "COR X AGS",
+        "gols_visitante": "0",
+        "mandante": "corinthians.png",
+        "visitante": "agua santa.png"
+    },
+
+    {
+        "id": 3,
+        "rodada": 3,
+        "data": "21/01/2023",
+        "hora": "18:30",
+        "estadio": "Estádio Major José Levy Sobrinho (Limeirão)",
+        "gols_mandante": "0",
+        "partida": "INT X COR",
+        "gols_visitante": "0",
+        "mandante": "inter limeira.png",
+        "visitante": "corinthians.png"
+    },
+
+    {
+        "id": 4,
+        "rodada": 4,
+        "data": "24/01/2023",
+        "hora": "20:00",
+        "estadio": "Neo Química Arena",
+        "gols_mandante": "2",
+        "partida": "COR X GUA",
+        "gols_visitante": "1",
+        "mandante": "corinthians.png",
+        "visitante": "guarani.png"
+    },
+
+    {
+        "id": 5,
+        "rodada": 5,
+        "data": "29/01/2023",
+        "hora": "18:30",
+        "estadio": "Morumbi",
+        "gols_mandante": "1",
+        "partida": "SAO X COR",
+        "gols_visitante": "2",
+        "mandante": "sao paulo.png",
+        "visitante": "corinthians.png"
+    },
+
+    {
+        "id": 6,
+        "rodada": 6,
+        "data": "05/02/2023",
+        "hora": "18:30",
+        "estadio": "Neo Química Arena",
+        "gols_mandante": "2",
+        "partida": "COR X BOT",
+        "gols_visitante": "0",
+        "mandante": "corinthians.png",
+        "visitante": "botafogo sp.png"
+    },
+
+    {
+        "id": 7,
+        "rodada": 7,
+        "data": "09/02/2023",
+        "hora": "21:30",
+        "estadio": "Estádio Primeiro de Maio",
+        "gols_mandante": "2",
+        "partida": "SBR X COR",
+        "gols_visitante": "0",
+        "mandante": "sao bernardo.png",
+        "visitante": "corinthians.png"
+    },
+
+    {
+        "id": 8,
+        "rodada": 8,
+        "data": "12/02/2023",
+        "hora": "16:00",
+        "estadio": "Estádio Nacional Mané Garrincha",
+        "gols_mandante": "0",
+        "partida": "POR X COR",
+        "gols_visitante": "0",
+        "mandante": "portuguesa.png",
+        "visitante": "corinthians.png"
+    },
+
+    {
+        "id": 9,
+        "rodada": 9,
+        "data": "16/02/2023",
+        "hora": "21:30",
+        "estadio": "Neo Química Arena",
+        "gols_mandante": "2",
+        "partida": "COR X PAL",
+        "gols_visitante": "2",
+        "mandante": "corinthians.png",
+        "visitante": "palmeiras.png"
+    },
+
+    {
+        "id": 10,
+        "rodada": 10,
+        "data": "19/02/2023",
+        "hora": "18:30",
+        "estadio": "Neo Química Arena",
+        "gols_mandante": "3",
+        "partida": "COR X PAL",
+        "gols_visitante": "0",
+        "mandante": "corinthians.png",
+        "visitante": "mirassol.png"
+    },
+
+    {
+        "id": 11,
+        "rodada": 11,
+        "data": "26/02/2023",
+        "hora": "16:00",
+        "estadio": "Estádio Vila Belmiro",
+        "gols_mandante": "2",
+        "partida": "SAN X COR",
+        "gols_visitante": "2",
+        "mandante": "santos.png",
+        "visitante": "corinthians.png"
+    },
+
+    {
+        "id": 12,
+        "rodada": 12,
+        "data": "04/03/2023",
+        "hora": "18:30",
+        "estadio": "Neo Química Arena",
+        "gols_mandante": "3",
+        "partida": "COR X STA",
+        "gols_visitante": "1",
+        "mandante": "corinthians.png",
+        "visitante": "santo andre.png"
+    }
+]

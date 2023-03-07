@@ -1,0 +1,57 @@
+[
+	{
+		"time": "Red Bull Bragantino",
+		"grupo": "A",
+		"pontos": 20,
+		"jogos": 12,
+		"vitorias": 6,
+		"empates": 2,
+		"derrotas": 4,
+		"gols_pro": 15,
+		"gols_contra": 10,
+		"saldo_de_gols": 5,
+		"posicao": 1
+	},
+
+	{
+		"time": "Botafogo-SP",
+		"grupo": "A",
+		"pontos": 14,
+		"jogos": 12,
+		"vitorias": 4,
+		"empates": 2,
+		"derrotas": 6,
+		"gols_pro": 14,
+		"gols_contra": 17,
+		"saldo_de_gols": -3,
+		"posicao": 2
+	},
+
+	{
+		"time": "Santos",
+		"grupo": "A",
+		"pontos": 14,
+		"jogos": 12,
+		"vitorias": 3,
+		"empates": 5,
+		"derrotas": 4,
+		"gols_pro": 14,
+		"gols_contra": 17,
+		"saldo_de_gols": -3,
+		"posicao": 3
+	},
+
+	{
+		"time": "Inter de Limeira",
+		"grupo": "A",
+		"pontos": 11,
+		"jogos": 12,
+		"vitorias": 3,
+		"empates": 2,
+		"derrotas": 7,
+		"gols_pro": 4,
+		"gols_contra": 18,
+		"saldo_de_gols": -14,
+		"posicao": 4
+	}
+]

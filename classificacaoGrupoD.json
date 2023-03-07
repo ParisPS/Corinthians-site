@@ -1,0 +1,57 @@
+[
+	{
+		"time": "Palmeiras",
+		"grupo": "D",
+		"pontos": 28,
+		"jogos": 12,
+		"vitorias": 8,
+		"empates": 2,
+		"derrotas": 0,
+		"gols_pro": 18,
+		"gols_contra": 5,
+		"saldo_de_gols": 13,
+		"posicao": 1
+	},
+
+	{
+		"time": "São Bernardo FC",
+		"grupo": "D",
+		"pontos":26,
+		"jogos": 12,
+		"vitorias": 8,
+		"empates": 2,
+		"derrotas": 2,
+		"gols_pro": 21,
+		"gols_contra": 9,
+		"saldo_de_gols": 12,
+		"posicao": 2
+	},
+
+	{
+		"time": "Santo André",
+		"grupo": "D",
+		"pontos": 14,
+		"jogos": 12,
+		"vitorias":4,
+		"empates": 2,
+		"derrotas": 6,
+		"gols_pro": 9,
+		"gols_contra": 14,
+		"saldo_de_gols": -5,
+		"posicao": 3
+	},
+
+	{
+		"time": "Portuguesa",
+		"grupo": "D",
+		"pontos": 10,
+		"jogos": 12,
+		"vitorias": 2,
+		"empates": 4,
+		"derrotas": 6,
+		"gols_pro": 10,
+		"gols_contra": 18,
+		"saldo_de_gols": -8,
+		"posicao": 4
+	}
+]

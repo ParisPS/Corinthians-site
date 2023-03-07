@@ -1,0 +1,19 @@
+[
+    {
+        "diaSemana": "DOM",
+        "data": "12/03/2023",
+        "hora": "16:00",
+        "estadio": "Neo Química Arena",
+        "mandante": "Corinthians",
+        "gols_mandante": "",
+        "partida": "COR x ITU",
+        "gols_visitante": "",
+        "visitante": "Ituano",
+        "img_mandante": "corinthians.png",
+        "img_visitante": "ituano.png",
+        "prorrogacao": "",
+        "penaltis": "",
+        "placar_penaltis": "",
+        "classificado": ""
+    }
+]
