@@ -1,0 +1,171 @@
+@import url('https://fonts.cdnfonts.com/css/earth-orbiter');  /*Fonte*/           
+
+:root { /*Principais cores do site*/
+    --cinza: #b7b2b2;
+    --vermelho: #ff0019;
+    --branco: #ffffff;
+}
+
+header .Header {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .Titulo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Earth Orbiter', impact;
+    font-size: 40px;
+}
+
+header nav a { 
+    font-family: 'Earth Orbiter', impact;
+    font-size: 20px;
+    text-decoration:none;
+    color: var(--cinza);
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--vermelho);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #28020f;
+}
+
+.Goleiros {
+	width: 1152px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+.Zagueiros{
+	width: 1300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 10vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+.Laterais{
+	width: 1300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+.Volantes{
+	width: 1300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 10vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+.Meias{
+	width: 1300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+.Atacantes{
+	width: 1300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 10vh;
+	margin: 0 auto;
+	position: relative;
+}
+
+.round-1 {
+	position: absolute;
+	top: 5%;
+	left: 32%;
+	width: 13em;
+	height: 13em;
+	border-radius: 50%;
+	box-shadow: 0 0 50px #474545;
+	background: linear-gradient(-25deg, #ff003cc3, #ffffff);
+}
+.round-2 {
+	position: absolute;
+	top: 50%;
+	right: 23%;
+	width: 19em;
+	height: 19em;
+	border-radius: 50%;
+	box-shadow: 0 0 50px #474545;
+	background: linear-gradient(180deg, #000000, #ffffff);
+}
+
+.box {
+	width: 350px;
+	height: 450px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff1a;
+	backdrop-filter: blur(20px);
+	padding: 1.5em;
+	border-radius: 25px;
+	border: 2px solid #ffffff30;
+	box-shadow: 0 0 30px #0000002a;
+	text-align: center;
+}
+.box h2 {
+	color: #ffffff60;
+	text-transform: capitalize;
+	margin: 15px 0;
+}
+.box h2 span {
+	display: block;
+	font-size: 15px;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+.box p {
+	color: #ffffff90;
+	font-size: 14px;
+}
+
+.profile-img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	overflow: hidden;
+	object-fit: cover;
+}
+
+.profile-img img {
+	width: 100%;
+}

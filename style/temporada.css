@@ -86,7 +86,7 @@ h2{
     font-size: 40px;
 }
 
-.Button {
+.buttons .Button {
     background-color: rgba(0, 0, 0, 0.7);
     border: none;
     border-radius: 12px;
@@ -106,7 +106,7 @@ h2{
     color: var(--vermelho);
 }
 
-.Button {
+.buttons .Button {
     margin-right: 8px;
 }
 

@@ -5,15 +5,15 @@
         "hora": "16:00",
         "estadio": "Neo Química Arena",
         "mandante": "Corinthians",
-        "gols_mandante": "",
+        "gols_mandante": "1",
         "partida": "COR x ITU",
-        "gols_visitante": "",
+        "gols_visitante": "1",
         "visitante": "Ituano",
         "img_mandante": "corinthians.png",
         "img_visitante": "ituano.png",
-        "prorrogacao": "",
-        "penaltis": "",
-        "placar_penaltis": "",
-        "classificado": ""
+        "prorrogacao": "Não",
+        "penaltis": "Sim",
+        "placar_penaltis": "6 X 7",
+        "classificado": "Ituano"
     }
 ]

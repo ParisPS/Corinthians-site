@@ -66,28 +66,6 @@ h2{
     
 }
 
- .paris{
-    align-items: center;
-    height: 300px;
-    width: 200px;
-    border-radius: 50px;
-    float: left;
-    border: transparent thin solid;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
- }
-
- .filipe{
-    align-items: center;
-    height: 300px;
-    width: 200px;
-    border-radius: 50px;
-    float: right;
-    border: transparent thin solid;
-    padding: 5px;
-    margin: 0px 10px 10px 0;
- }
-
 section.content p{
     float:initial;
     text-align: justify;
@@ -113,7 +91,7 @@ section.module{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100vh !important;
+    height: 80vh !important;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -138,11 +116,91 @@ section.module:after{
 }
 
 section.module.parallax-1{
-    background-image: url("../img/home/Corinthians.webp");
+    background-image: url("../img/historia/1914.jpeg");
 }
   
 section.module.parallax-2{
-    background-image: url("../img/home/Republica\ corinthiana.jpeg");
+    background-image: url("../img/historia/1918.jpeg");
+}
+
+section.module.parallax-3{
+    background-image: url("../img/historia/1929.jpeg");
+}
+  
+section.module.parallax-4{
+    background-image: url("../img/historia/1930.jpeg");
+}
+
+section.module.parallax-5{
+    background-image: url("../img/historia/1950.jpeg");
+}
+  
+section.module.parallax-6{
+    background-image: url("../img/historia/1951.png");
+}
+
+section.module.parallax-7{
+    background-image: url("../img/historia/1968.jpeg");
+}
+  
+section.module.parallax-8{
+    background-image: url("../img/historia/1976.jpeg");
+}
+
+section.module.parallax-9{
+    background-image: url("../img/historia/1977.jpeg");
+}
+  
+section.module.parallax-10{
+    background-image: url("../img/historia/1982.webp");
+}
+
+section.module.parallax-11{
+    background-image: url("../img/historia/1990.jpeg");
+}
+  
+section.module.parallax-12{
+    background-image: url("../img/historia/1998.jpg");
+}
+
+section.module.parallax-13{
+    background-image: url("../img/historia/2000.jpeg");
+}
+  
+section.module.parallax-14{
+    background-image: url("../img/historia/2005.jpeg");
+}
+
+section.module.parallax-15{
+    background-image: url("../img/historia/2007.jpeg");
+}
+
+section.module.parallax-16{
+    background-image: url("../img/historia/2008.jpg");
+}
+  
+section.module.parallax-17{
+    background-image: url("../img/historia/2009.jpeg");
+}
+
+section.module.parallax-18{
+    background-image: url("../img/historia/2010.jpeg");
+}
+
+section.module.parallax-19{
+    background-image: url("../img/historia/2012.jpeg");
+}
+  
+section.module.parallax-20{
+    background-image: url("../img/historia/2015.jpg");
+}
+
+section.module.parallax-21{
+    background-image: url("../img/historia/2017.jpeg");
+}
+  
+section.module.parallax-22{
+    background-image: url("../img/historia/2022.webp");
 }
 
 section.module h1{
