@@ -51,7 +51,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 10vh;
 	margin: 0 auto;
 	position: relative;
 }
@@ -71,7 +71,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 10vh;
 	margin: 0 auto;
 	position: relative;
 }
@@ -91,7 +91,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
+	min-height: 10vh;
 	margin: 0 auto;
 	position: relative;
 }
@@ -106,26 +106,16 @@ body {
 	position: relative;
 }
 
-.round-1 {
-	position: absolute;
-	top: 5%;
-	left: 32%;
-	width: 13em;
-	height: 13em;
-	border-radius: 50%;
-	box-shadow: 0 0 50px #474545;
-	background: linear-gradient(-25deg, #ff003cc3, #ffffff);
-}
-.round-2 {
-	position: absolute;
-	top: 50%;
-	right: 23%;
-	width: 19em;
-	height: 19em;
-	border-radius: 50%;
-	box-shadow: 0 0 50px #474545;
-	background: linear-gradient(180deg, #000000, #ffffff);
-}
+.titulo_posicao {
+    color: var(--branco);
+    font-family: 'Earth Orbiter', impact;
+    font-size: 50px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+} 
 
 .box {
 	width: 350px;
