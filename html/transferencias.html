@@ -3,97 +3,116 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/transferencias.css">
+
+    <link rel="icon" href="../img/icon.png"/>
     <title>Transferências</title>
 </head>
-
-<body>
-    <div class="container">
-        <div class="form-image">
-            <img src="/img/jogador.png" alt="">
+<div>
+    <header>
+        <div class="Header">
+            <h1 class="Titulo">Hard Corinthians Engineers</h1> <!--Título do site-->
+            <nav>
+                <a href="./home.html">Home</a>
+                <a href="./temporada.html">Temporada</a>
+                <a href="./elenco.html">Elenco</a>
+                <a href="./transferencias.html">Transferências</a>
+                <a href="./historia.html">História</a>
+            </nav>
         </div>
-        <div class="form">
-            <form action="#">
-                <div class="form-header">
-                    <div class="title">
-                        <h1 class="cadastro">Cadastrar novo Jogador</h1>
+    </header>
+    
+    <div class="Espacamento"></div>
+
+    <body>
+
+        <div class="container">
+            <div class="form-image">
+                <img src="/img/jogador.png" alt="">
+            </div>
+            <div class="form">
+                <form action="#">
+                    <div class="form-header">
+                        <div class="title">
+                            <h1 class="cadastro">Cadastrar novo Jogador</h1>
+                        </div>
                     </div>
+    
+                    <div class="input-group">
+                        <div class="input-box">
+                            <label for="firstname">Primeiro Nome</label>
+                            <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="lastname">Sobrenome</label>
+                            <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        </div>
+                        <div class="input-box">
+                            <label for="club">Clube anterior</label>
+                            <input id="club" type="club" name="club" placeholder="Digite o clube anterior" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="number">Nº da camisa</label>
+                            <input id="number" type="number" name="number" placeholder="" required>
+                        </div>
+    
+                        <div class="input-box">
+                            <label for="number">Valor de transferência</label>
+                            <input id="nuumber" type="" name="number" placeholder="Digite o valor da transf." required>
+                        </div>
+    
+    
+                        <div class="input-box">
+                            <label for="date">Contrato até</label>
+                            <input id="date" type="date" name="date" placeholder="Digite sua senha novamente" required>
+                        </div>
+    
+                    </div>
+    
+                    <div class="posicao-inputs">
+                        <div class="posicao-title">
+                            <h6>Posição</h6>
+                        </div>
+    
+                        <div class="posicao-group">
+                            <div class="posicao-input">
+                                <input id="Goleiro" type="radio" name="posicao">
+                                <label for="Goleiro">Goleiro</label>
+                            </div>
+    
+                            <div class="posicao-input">
+                                <input id="Zagueiro" type="radio" name="posicao">
+                                <label for="Zagueiro">Zagueiro</label>
+                            </div>
+    
+                            <div class="posicao-input">
+                                <input id="Lateral" type="radio" name="posicao">
+                                <label for="Lateral">Lateral</label>
+                            </div>
+    
+                            <div class="posicao-input">
+                                <input id="Meia" type="radio" name="posicao">
+                                <label for="Meia">Meia</label>
+                            </div>
+    
+                            <div class="posicao-input">
+                                <input id="Atacante" type="radio" name="posicao">
+                                <label for="Atacante">Atacante</label>
+                            </div>
+                        </div>
+                    </div>
+    
+                        <div class="continue-button">
+                            <button><a href="#">Continuar</a> </button>
+                        </div>
+                    </form>
                 </div>
-
-                <div class="input-group">
-                    <div class="input-box">
-                        <label for="firstname">Primeiro Nome</label>
-                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="lastname">Sobrenome</label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
-                    </div>
-                    <div class="input-box">
-                        <label for="club">Clube anterior</label>
-                        <input id="club" type="club" name="club" placeholder="Digite o clube anterior" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="number">Nº da camisa</label>
-                        <input id="number" type="number" name="number" placeholder="" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="number">Valor de transferência</label>
-                        <input id="nuumber" type="" name="number" placeholder="Digite o valor da transf." required>
-                    </div>
-
-
-                    <div class="input-box">
-                        <label for="date">Contrato até</label>
-                        <input id="date" type="date" name="date" placeholder="Digite sua senha novamente" required>
-                    </div>
-
-                </div>
-
-                <div class="posicao-inputs">
-                    <div class="posicao-title">
-                        <h6>Posição</h6>
-                    </div>
-
-                    <div class="posicao-group">
-                        <div class="posicao-input">
-                            <input id="Goleiro" type="radio" name="posicao">
-                            <label for="Goleiro">Goleiro</label>
-                        </div>
-
-                        <div class="posicao-input">
-                            <input id="Zagueiro" type="radio" name="posicao">
-                            <label for="Zagueiro">Zagueiro</label>
-                        </div>
-
-                        <div class="posicao-input">
-                            <input id="Lateral" type="radio" name="posicao">
-                            <label for="Lateral">Lateral</label>
-                        </div>
-
-                        <div class="posicao-input">
-                            <input id="Meia" type="radio" name="posicao">
-                            <label for="Meia">Meia</label>
-                        </div>
-
-                        <div class="posicao-input">
-                            <input id="Atacante" type="radio" name="posicao">
-                            <label for="Atacante">Atacante</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="continue-button">
-                    <button><a href="#">Continuar</a> </button>
-                </div>
-            </form>
-        </div>
-    </div>
-</body>
+            </div>
+    
+    </body>
+</div>
 
 </html>
