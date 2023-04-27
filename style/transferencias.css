@@ -234,3 +234,22 @@ header nav a:hover {
         margin-top: 0.5rem;
     }
 }
+
+ /* 6 - AND na media query */
+ @media (min-width: 300px) and (max-width: 400px) {
+    h3 {
+      font-size: 3em;
+    }
+  }
+  
+  /* 8 - OR na media query */
+  @media (max-width: 200px), (orientation: landscape) {
+    h3 {
+      font-size: 4em;
+    }
+  }
+  
+  /* 10 - breakpoints */
+  h5 {
+    font-size: 3em;
+  }
